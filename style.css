@@ -1,59 +1,198 @@
-*{
-    margin: 0%;
+*{ margin: 0%;
     padding: 0%;
-
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Gentium Book Plus', serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Roboto Slab', serif;
 }
-
-
-h1{
-    font-size: 80px;
+h1.banner{
+    font-size: 60px;
     text-align: center;
     color: white;
     padding-top: 200px;
 }
-.pink-color{
-    color: #e84393;
-}
-.pink-color2{
-    color: #e84393
-}
-p{
-    font-size: 20px;
-    text-align: center;
-    color: white;
-}
-#header{
+.header{
   background-image:
-  linear-gradient(to bottom, rgba(20, 20, 20, 0.52), rgba(243, 230, 248, 0.73)),
+  linear-gradient(to bottom, rgba(91, 44, 95, 0.52), rgba(152, 142, 156, 0.73)),
     url(images/donation1.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    height: 100vh;
 }
-
-
-
-.donate-button{
-    text-decoration: none;
-    background-color: #ddbfc6;
-    background-image: linear-gradient(#e998aa,#f16583);
-    padding: 10px 15px;
-    border-radius: 7%;
+p.banner{
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
     color: white;
-    display: inline-block;
-    border: .5px solid #fff;
-    font-weight: 700;
-    transition: 0.7s;
+    padding-top: 75px;
 }
+.pink-color{
+    color: #e84393;
+}
+.banner1{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.donate-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+     background-image: linear-gradient(#FF5959,#f16583);
+    left: 578px;
+    top: 575px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 7%;
+    display: inline-block;
+    border: 2px solid #fff;
+    transition: 0.7s;
+
+}
+
 .donate-button:hover{
 color: #b33939;
 background-color: #dcdde1;
-
-
 }
+.donation-sec{
+    width: 100%;
+	text-align: center;
+}
+
+#midle{
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    margin: 2%;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.donation-baton{
+    text-align: center;
+    margin: 5px;
+    padding: 14;
+}
+.donation-plan{
+    text-align: center;
+    font-size: 25px; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    background-color: #7ed6df;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+}
+.card1:hover{
+    border: 3px solid #ff7979;
+    margin-top: -20px;
+    transition: .8ms;
+}
+
+
+.section-two{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ourdonation{
+    text-align: center;
+}
+
+h4{
+    font-size: 14px;
+    }
+    
+.foter{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+    
+    .btn {
+        text-decoration: none;
+        padding: 10px 40px;
+        background-image: linear-gradient(#FF5959,#f16583);
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-top: 1%;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .updates {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .input-p{
+        text-align: center;
+        
+    }
+    #input-d{
+
+        margin-left: 50%;
+    }
+    .foterh{
+  font-size: 30px;
+}
+    
+    .subscribe{
+        width: 45%;
+	background-color: #ffb142;
+	height: 102px;
+	margin-top: 50px;
+	padding-top: 50px;
+	margin: 0 auto;
+    }
+    h5{
+    font-size: 24px;
+     font-style: italic;
+    }
+    .footer {
+        text-align: center;
+        height: 100px;
+        margin-top: 50px;
+        background-color: black;
+        color: red;
+        padding: 20px;
+    }
+    
+    .footer p {
+        color: white;
+    }
+    
